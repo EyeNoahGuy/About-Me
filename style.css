@@ -1,0 +1,33 @@
+@keyframes example {
+    0% {color: #4ff74f; font-size: smaller; top:0px; left: -20px;}
+    25% {color: #4ff74f; font-size: small;top: 20px; left: 0px;}
+    50% {color:#ff0000 ;font-size: medium; top: 40px; left: 40px;}
+    75% {color: hwb(76 22% 7%); font-size: large; top: 0px; left: -20px;}
+    100% {color: #41ff2f; font-size: larger; top: 0px; left: 0px;}
+}
+div {
+    color: #4ff74f;
+    font: x-large bold, comic, sans-serif;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative; 
+    animation-direction:normal;
+    animation-timing-function: ease-out;
+
+}
+
+html {
+    background-color: black;
+}
+
+h1{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative; 
+    animation-timing-function: ease-out;
+    text-shadow: 2px 2px gold;
+
+}
