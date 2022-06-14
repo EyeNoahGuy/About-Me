@@ -1,0 +1,7 @@
+body{
+    background-color: lightgrey;
+    margin: center
+    padding: 15px;
+    max-width: 960px;
+    font-family: verdana, arial, helvetica;
+}
