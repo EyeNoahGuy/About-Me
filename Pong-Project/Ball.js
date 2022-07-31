@@ -3,3 +3,14 @@ export default class Ball{
         this.BallElm = BallElm
     }
 }
+get x(){
+    return parseFloat(getComputedStyle(this.BallElm).getPropertyValue("--x"))
+}
+
+set x(value){
+    this.BallElm.style.setProperty("--x", value)
+}
+
+update(delta){
+
+}
